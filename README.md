@@ -4,7 +4,6 @@
 ### Angular folder has the below structure
 - App
   - models/
-    - index.ts
     - user.model.ts -- has the user model interface
   - service/
     - user.service.ts -- the main service to do a http request and fetch the data
