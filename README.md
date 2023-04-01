@@ -30,4 +30,5 @@ Below is the screenshot for the running application and test result
     - Test that GetAllUserPost returns an empty list when the API is unavailable
     - Test that GetAllUserPost returns an empty list when the API returns an error status code (e.g. 500 Internal Server Error) 
 
+![Screenshot](api_folder_list.JPG)
 ![Screenshot](unit_test_positive_negative.JPG)
