@@ -10,7 +10,7 @@
     - user.service.ts -- the main service to do a http request and fetch the data
     - user.service.spec.ts -- unit tests using karma/jasmine
   - app.component.ts -- the logic to generate the data from API
-  - app.component.html -- to view the user list in a table format
+  - app.component.html -- to view the user list in a table format, bootstrap css is used to format the table.
   - app.component.spec.ts -- unit test for the app component
   
 Below is the screenshot for the running application and test result
@@ -20,8 +20,8 @@ Below is the screenshot for the running application and test result
 
 
 ## The C# unit tests solution is in APITest and API
-- API Test is used for unit testing using the xUnit framework
-- API has the actual code to call the user posts.
+- API Test is used for unit testing using the xUnit framework, Shouldly and Moq
+- API has the actual code to call the user posts by calling the UserPostService.
 
 ### The unit test covers
     - Test that GetAllUserPost returns all user posts when they exist in the API
